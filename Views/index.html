@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../Plugins/fontawesome-free-6.5.2-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../Plugins/bootstrap-5.3.3-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>Portafolio</title>
+  </head>
+  <body class="bg-black d-flex flex-column justify-content-center">
+    <header>
+      <nav class="navbar navbar-dark navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav w-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#descripcion"
+                  >Descripción</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Formación</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container text-white">
+      <article class="descripcionContainer" id="descripcion">
+        <img src="../imgs/jorge.jpg" alt="Foto de Jorge" class="w-75" />
+        <div class="descripcion">
+          <h1>¡Hola! Soy Jorge 👋</h1>
+          <p>
+            Soy un técnico superior en <span class="destacar">Desarrollo de Aplicaciones Web</span>. Soy un
+            apasionado del mundo de la computación y <span class="destacar">estoy buscando trabajo</span>.
+          </p>
+          <div class="contacto">
+            <a href="" aria-label="instagram" class="instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="" aria-label="linkedin" class="linkedin"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="" aria-label="github" class="github"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </article>
+      <article class="container-fluid d-flex flex-column mt-5">
+        <h2><span class="fa-solid fa-code me-3"></span>Proyectos</h2>
+        <div class="proyectos">
+          <section>
+            <img src="../imgs/2895638.jpg" alt="Oh Yeah Image" />
+            <div class="descripcionProyecto">
+              <h3>
+                <a
+                  class="repositorio"
+                  href="https://github.com/jpingil/PinGiDev.git"
+                  ><span class="fa-brands fa-github"></span>OhYeah!</a
+                >
+              </h3>
+              <p>
+                Proyecto hecho para la asignatura de interfaces web.
+                Este proyecto es una <span class="destacar">web para una tienda de ropa de diseño</span>, en
+                la que se muestran las diferentes prendas de la tienda, los
+                valores de esta, el contacto, etc...
+              </p>
+              <div class="lenguajes">
+                <p class="html"><span class="fa-brands fa-html5"></span>HTML</p>
+                <p class="css"><span class="fa-brands fa-css3"></span>CSS</p>
+                <p class="bootstrap">
+                  <span class="fa-brands fa-bootstrap"></span>Bootstrap
+                </p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <img src="../imgs/6222082.jpg" alt="PinGiDev Image" />
+            <div class="descripcionProyecto">
+              <h3>
+                <a
+                  class="repositorio"
+                  href="https://github.com/jpingil/PinGiDev.git"
+                  ><span class="fa-brands fa-github"></span>PinGiDev</a
+                >
+              </h3>
+              <p>
+                Proyecto de fin de ciclo. Este proyecto es la <span class="destacar">web de una
+                empresa</span>, que se centra en la <s  pan class="destacar">venta de webs minimalistas</s>. Cuenta
+                con un mosaico de proyectos que se presentan como "cards", una
+                presentación de los empleados de la empresa, los valores de la
+                empresa, etc...
+              </p>
+              <div class="lenguajes">
+                <p class="html"><span class="fa-brands fa-html5"></span>HTML</p>
+                <p class="css"><span class="fa-brands fa-css3"></span>CSS</p>
+                <p class="js">
+                  <span class="fa-brands fa-js"></span>JavaScript
+                </p>
+                <p class="php"><span class="fa-brands fa-php"></span>PHP</p>
+                <p class="bootstrap">
+                  <span class="fa-brands fa-bootstrap"></span>Bootstrap
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+      <article
+        class="container-fluid d-flex mb-5 mt-5"
+      >
+        <section class="formacionContainer">
+          <h2>
+            <span class="fa-solid fa-graduation-cap me-3"></span>Formación
+          </h2>
+          <div class="formaciones">
+            <div class="formacion">
+              <h4 class="destacar">Técnico Superior de Desarrollo de Aplicaciones Web</h4>
+              <p>En el primer año aprendí Java, base de datos (MySql), html, css y algunas cosas sobre sistemas informáticos. En 
+                el segundo año, se enfatizó más en el ámbito web, y aprendimos Php, Docker, JavaScript, Tomcat, Apache...
+              </p>
+            </div>
+            <div class="formacion">
+            <h4 class="destacar">Cursando Ingeniería Informática</h4>
+            <p>Ahora mismo estoy cursando la Ingeniería Informática. Estos dos anteriores años realizando el ciclo superior, me 
+              ayudaron para conocerme, y saber que quiero saber más sobre el mundo de la computación. Tengo interés en tocar otros puntos
+              a parte del desarrollo web (aunque este también me gusta), y profundizar más en algunos conocimientos.
+            </p>
+          </div>
+          </div>
+          <div class="curriculum">
+            <a href="../Jorge Pino Gil.pdf">Descargar currículum</a>
+          </div>
+        </section>
+        <section class="habilidadesContainer col-6">
+          <h2><span class="fa-solid fa-book me-3"></span>Habilidades</h2>
+          <div class="habilidades">
+            <div>
+              <i class="fa-brands fa-html5"></i>
+              <p>HTML</p>
+            </div>
+            <div>
+              <i class="fa-brands fa-css3"></i>
+              <p>CSS</p>
+            </div>
+            <div>
+              <i class="fa-brands fa-js"></i>
+              <p>JavaScript</p>
+            </div>
+            <div>
+              <i class="fa-brands fa-php"></i>
+              <p>PHP</p>
+            </div>
+            <div>
+              <i class="fa-brands fa-java"></i>
+              <p>Java</p>
+            </div>
+            <div>
+              <i class="fa-brands fa-docker"></i>
+              <p>Docker</p>
+            </div>
+            <div>
+              <i class="fa-brands fa-bootstrap"></i>
+              <p>Bootstrap</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-database"></i>
+              <p>MySql</p>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p>© Jorge Pino Gil 2024</p>
+    </footer>
+    <script src="../Plugins/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

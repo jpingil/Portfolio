@@ -1,0 +1,254 @@
+body {
+  background: linear-gradient(to bottom, black, rgba(83, 78, 78, 0.4));
+}
+
+article {
+  min-height: 100vh;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+.destacar{
+  color: green;
+}
+
+.navbar-nav {
+  margin: 20px 0px;
+  border: 1px solid white;
+  padding: 5px;
+  background-color: rgba(128, 128, 128, 0.145);
+  border-radius: 50px;
+}
+
+.descripcionContainer {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.descripcionContainer img {
+  border-radius: 10px;
+}
+
+.descripcion h1 {
+  margin-bottom: 30px;
+}
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contacto a {
+  padding: 8px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.contacto *{
+  transition: background-color 0.5s, border 0.5s;
+}
+
+.contacto .instagram:hover {
+  background-color: purple;
+}
+
+.contacto .linkedin:hover {
+  background-color: rgb(0, 140, 255);
+}
+
+.contacto .github{
+  border: 1px solid transparent;
+}
+
+.contacto .github:hover {
+  border: 1px solid white;
+}
+
+.contacto a i {
+  font-size: 40px;
+  color: white;
+}
+
+.proyectos section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  margin: 30px 0px;
+}
+
+.proyectos section * {
+  padding: 10px;
+}
+
+.proyectos section img {
+  padding: 0;
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.proyectos section img:hover {
+  transform: scale(0.98);
+}
+
+.repositorio{
+  border-radius: 10px;
+  border: 1px solid black;
+  transition: border-color 0.5s;
+}
+
+.repositorio:hover{
+  border: 1px solid white;
+}
+
+.lenguajes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+}
+
+.lenguajes p {
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.html {
+  background-color: rgba(255, 166, 0, 0.2);
+  border: 1px solid orange;
+}
+
+.css {
+  background-color: rgba(0, 85, 255, 0.2);
+  border: 1px solid blue;
+}
+
+.js {
+  background-color: rgba(255, 255, 0, 0.2);
+  border: 1px solid yellow;
+}
+
+.php {
+  background-color: rgba(6, 88, 195, 0.2);
+  border: 1px solid rgb(6, 88, 195);
+}
+
+.bootstrap {
+  background-color: rgba(128, 0, 128, 0.2);
+  border: 1px solid purple;
+}
+
+.habilidades {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.habilidades div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.habilidades div i {
+  font-size: 30px;
+}
+
+.habilidades div p {
+  margin: 0;
+}
+
+article:last-child {
+  min-height: 0;
+}
+
+.formacionContainer,
+.habilidadesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formacionContainer {
+  justify-content: center;
+  gap: 10px;
+}
+
+.formacion{
+  margin-bottom: 30px;
+}
+
+.curriculum {
+  margin-top: 20px;
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: rgba(255, 0, 0, 0.2);
+  padding: 10px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.curriculum:hover {
+  background-color: rgb(78, 7, 7);
+}
+
+.curriculum a {
+  text-decoration: none;
+  color: white;
+}
+
+[class*="fa"] {
+  transition: all 0.3s ease-in-out;
+}
+
+.habilidades .fa-html5:hover {
+  color: orange;
+}
+
+.habilidades .fa-css3:hover {
+  color: blue;
+}
+
+.habilidades .fa-js:hover {
+  color: yellow;
+}
+
+.habilidades .fa-php:hover {
+  color: rgb(0, 234, 255);
+}
+
+.habilidades .fa-java:hover {
+  color: red;
+}
+
+.habilidades .fa-docker:hover {
+  color: blue;
+}
+
+.habilidades .fa-bootstrap:hover {
+  color: purple;
+}
+
+.habilidades .fa-database:hover{
+  color: yellow;
+}
+
+footer {
+  border-top: 1px solid rgba(128, 128, 128, 0.511);
+  min-height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
