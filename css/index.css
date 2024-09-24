@@ -181,13 +181,12 @@ article:last-child {
   align-items: center;
 }
 
-.formacionContainer {
-  justify-content: center;
-  gap: 10px;
+.formacionContainer h2{
+  width: 100%;
 }
 
 .formacion{
-  margin-bottom: 30px;
+  margin: 20px 0px;
 }
 
 .curriculum {
